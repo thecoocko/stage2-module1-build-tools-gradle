@@ -16,8 +16,8 @@ repositories {
 publishing {
     publications {
         maven(MavenPublication) {
-            groupId 'org.gradle.stage2-build-tools-gradle'
-            artifactId 'stage2-build-tools-gradle'
+            groupId 'org.gradle.stage2-build-tools-gradle2'
+            artifactId 'stage2-build-tools-gradle2'
             version '1.1'
 
             from components.java
